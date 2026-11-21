@@ -1,5 +1,7 @@
 # x402-cluster
 
+[![x402 Structured Data & URL Scraper MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/dev.workers.ian-944.x402-cluster/x402-structured-data-and-url-scraper/badges/score.svg)](https://glama.ai/mcp/connectors/dev.workers.ian-944.x402-cluster/x402-structured-data-and-url-scraper)
+
 Zero-signup web scraping, HTML-to-JSON extraction, and payload compliance checks for AI agents—powered by Cloudflare Workers and **x402** micropayments (**$0.01 USDC** per call on Base L2).
 
 - **Live MCP Endpoint (Streamable HTTP):** `https://x402-cluster.ian-944.workers.dev/v1/mcp.json`
