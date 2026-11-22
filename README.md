@@ -13,15 +13,13 @@ Zero-signup web scraping, HTML-to-JSON extraction, and payload compliance checks
 
 Add to Cursor, VS Code, or any Streamable HTTP MCP client (`mcp.json`):
 
-```json
 {
   "mcpServers": {
     "x402-cluster": {
-      "url": "[https://x402-cluster.ian-944.workers.dev/v1/mcp.json](https://x402-cluster.ian-944.workers.dev/v1/mcp.json)"
+      "url": "https://x402-cluster.ian-944.workers.dev/v1/mcp.json"
     }
   }
 }
-```
 
 ## Available Tools
 
