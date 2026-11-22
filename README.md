@@ -23,14 +23,15 @@ Add to Cursor, VS Code, or any Streamable HTTP MCP client (`mcp.json`):
 }
 ```
 
-## Available Tools ($0.01 USDC / call)
+## Available Tools
 
-| Tool | Purpose | Max Input |
-|---|---|---|
-| `extract_from_url` | Fetch a public webpage URL, strip boilerplate, and return strict typed JSON matching `target_schema` in one hop. | Public URL |
-| `extract_structured_data` | Convert raw text, receipts, emails, or HTML snippets already in memory into typed JSON conforming to `target_schema`. | 6,000 bytes |
-| `parse_web_schema` | Fast flat key-value entity extraction from unstructured text when you only need a list of field names. | 6,000 bytes |
-| `validate_compliance` | Audit a JSON payload against PII, KYC, or custom policy rules before executing downstream actions. | JSON object |
+| Tool | Cost | Purpose | Max Input |
+| :--- | :--- | :--- | :--- |
+| **`preview_extract`** | **Free** (5/hr) | Test JSON schema extraction before paying. | 500 chars |
+| **`extract_from_url`** | $0.01 USDC | Fetch a public URL, strip boilerplate, and return strict typed JSON. | Public URL |
+| **`extract_structured_data`** | $0.01 USDC | Convert raw text, receipts, emails, or HTML into typed JSON. | 6,000 bytes |
+| **`parse_web_schema`** | $0.01 USDC | Fast flat key-value entity extraction from unstructured text. | 6,000 bytes |
+| **`validate_compliance`** | $0.01 USDC | Audit a JSON payload against PII, KYC, or custom policy rules. | JSON object |
 
 ## 🚀 Quickstart: Call from an AI Agent
 
